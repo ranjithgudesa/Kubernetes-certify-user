@@ -1,5 +1,7 @@
 This repo will help you out to crate user, generate certificate, certificate signin request and approve certificate and RBAC concept
-1. Authenticate to cluster
+
+Authenticate to cluster
+
   aws --region us-east-1 eks update-kubeconfig --name dev-cluster
   kubectl config get-contexts
   kubectl create ns dev
