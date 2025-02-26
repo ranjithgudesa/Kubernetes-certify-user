@@ -18,6 +18,7 @@ https://kubernetes.io/docs/reference/access-authn-authz/certificate-signing-requ
 https://aungzanbaw.medium.com/a-step-by-step-guide-to-creating-users-in-kubernetes-6a5a2cfd8c71
 
 Generate certificate
+
 openssl genrsa -out devuser.key 2048
 
 openssl req -new -key devuser.key -out devuser.csr -subj "/CN=devuser"
