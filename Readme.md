@@ -3,10 +3,15 @@ This repo will help you out to crate user, generate certificate, certificate sig
 Authenticate to cluster
 
 aws --region us-east-1 eks update-kubeconfig --name dev-cluster
+
 kubectl config get-contexts
+
 kubectl config set-context <context-name>
+
 kubectl config use-context <context-name>
+
 kubectl create ns dev
+
 kubectl get ns
 
 https://kubernetes.io/docs/reference/access-authn-authz/certificate-signing-requests/#create-certificatessigningrequest <k8s document>
